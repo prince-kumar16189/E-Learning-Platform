@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; background: #0b1020; color: #e8ecff; }
+a { color: #9ab6ff; text-decoration: none; }
+header { display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; background: #101735; border-bottom: 1px solid #263169; }
+header h1 { margin: 0; font-size: 20px; }
+header nav a { margin-right: 12px; }
+.layout main { padding: 20px; max-width: 1000px; margin: 0 auto; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.card { background: #121a3a; border: 1px solid #263169; border-radius: 12px; padding: 16px; }
+.stack { display: grid; gap: 16px; }
+button { background: #3550ff; color: white; border: none; padding: 8px 12px; border-radius: 10px; cursor: pointer; }
+button:hover { opacity: 0.9; }
+input { width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #263169; background: #0f1531; color: #e8ecff; margin-bottom: 8px; }
+label { display: block; margin: 6px 0; }
+.error { color: #ffd1d1; }
+video { display: block; margin-top: 8px; max-width: 100%; }
